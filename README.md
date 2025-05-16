@@ -1,21 +1,35 @@
-# Svelte 5 Gang - A Theme for Zed
+# Svelte 5 Themes for Zed
 
-A high-contrast, Svelte-branded dark theme for Zed inspired by the [official Svelte documentation.](https://svelte.dev/docs/kit/introduction).
+A pair of high-contrast, Svelte-branded themes for Zed inspired by the [official Svelte documentation.](https://svelte.dev/docs/kit/introduction).
 
-This theme features the iconic Svelte orange (#FF3E00) with a deep black background for reduced eye strain.
+- **Svelte 5 Theme Dark**: Features the iconic Svelte orange (#FF3E00) with a deep black background for reduced eye strain.
+- **Svelte 5 Theme Latte**: A light variant with Svelte orange accents and a soft, warm background for daytime or high-light environments.
 
 ## Screenshots
 
-![Screenshot](./screenshot.png)
+![Dark Screenshot](./screenshot.png)
+
+<!-- Add a screenshot for Latte if available -->
 
 ## Manual install
 
-1. Copy `Svelte-5-Gang-Theme.json` into `~/.config/zed/themes`
-2. Select your theme (Settings -> Select Theme)
+1. Copy `themes/Svelte-5-Theme-Dark.json` and/or `themes/Svelte-5-Theme-Latte.json` into your Zed themes directory (usually `~/.config/zed/themes`).
+2. Select your preferred theme in Zed:
+   - For dark mode: **Svelte 5 Theme Dark**
+   - For light mode: **Svelte 5 Theme Latte**
+
+# Recommended Icon Themes
+
+These themes pair well with the following Zed icon themes:
+
+- Bearded Icons
+- Catppuccin Latte
+
+For the best experience with these themes, add the following to your settings.json file:
 
 ## Recommended Settings
 
-For the best experience with this theme, add the following to your settings.json file:
+Add the following to your settings.json file:
 
 ```
   "indent_guides": {
@@ -26,4 +40,4 @@ For the best experience with this theme, add the following to your settings.json
   },
 ```
 
-This will enable orange-tinted alternating indent guides that complement the theme's Svelte branding, similar to the code blocks on the Svelte documentation.
+This will enable orange-tinted alternating indent guides that complement the Svelte branding, similar to the code blocks on the Svelte documentation.
