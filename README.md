@@ -18,13 +18,12 @@ This theme features the iconic Svelte orange (#FF3E00) with a deep black backgro
 For the best experience with this theme, add the following to your settings.json file:
 
 ```
-"indent_guides": {
-  "enabled": true,
-  "coloring": "indent_aware",
-  "background_coloring": "indent_aware",
-  "line_width": 1,
-  "active_line_width": 2
-}
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "active_line_width": 2,
+    "background_coloring": "disabled"
+  },
 ```
 
 This will enable orange-tinted alternating indent guides that complement the theme's Svelte branding, similar to the code blocks on the Svelte documentation.
